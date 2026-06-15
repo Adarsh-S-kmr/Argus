@@ -1,0 +1,48 @@
+{
+  "manifest_version": 3,
+  "name": "Argus",
+  "version": "1.0.0",
+  "description": "Serverless, Local-First AI, Privacy-Centric news reality check extension.",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://raw.githubusercontent.com/*",
+    "https://news.google.com/*",
+    "https://en.wikipedia.org/*",
+    "https://nyt.com/*",
+    "https://*.snopes.com/*",
+    "https://*.politifact.com/*",
+    "https://*.factcheck.org/*",
+    "https://*.reuters.com/*",
+    "https://*.apnews.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "action": {
+    "default_title": "Analyze with Argus"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "worker.js",
+        "sandbox.html",
+        "database.json"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ],
+  "sandbox": {
+    "pages": ["sandbox.html"]
+  },
+  "content_security_policy": {
+    "sandbox": "sandbox allow-scripts allow-forms allow-popups allow-modals; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.jsdelivr.net; connect-src * data: blob:; child-src 'self' blob:; worker-src 'self' blob:;"
+  }
+}

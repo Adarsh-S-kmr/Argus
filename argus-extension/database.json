@@ -1,0 +1,4580 @@
+{
+  "nytimes.com": {
+    "owner": "The New York Times Company",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "foxnews.com": {
+    "owner": "Fox Corporation",
+    "funding": "Publicly traded (Nasdaq: FOXA)",
+    "source": "https://www.sec.gov/edgar/browse/?CIK=1754301",
+    "trust_level": "Verified"
+  },
+  "freedomnews.com": {
+    "owner": "Independent Media LLC",
+    "funding": "Donations",
+    "source": "https://en.wikipedia.org/wiki/Independent_Media",
+    "trust_level": "Community Sourced"
+  },
+  "theguardian.com": {
+    "owner": "Guardian Media Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "zeri-popullit.com": {
+    "owner": "Socialist Party of Albania",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "heraldnet.com": {
+    "owner": "Black Press",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "welt.de": {
+    "owner": "Axel Springer SE",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "vkurier.by": {
+    "owner": "Vo\u013aha Kara\u010d",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "vkurier.info": {
+    "owner": "Vo\u013aha Kara\u010d",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "elperiodico.cat": {
+    "owner": "Prensa Ib\u00e9rica",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "elperiodico.com": {
+    "owner": "Prensa Ib\u00e9rica",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "thedaily.com": {
+    "owner": "News Corporation",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "hindustantimes.com": {
+    "owner": "HT Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "timesofindia.indiatimes.com": {
+    "owner": "Q139935842",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "chicagotribune.com": {
+    "owner": "Tribune Publishing",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "thetimes.com": {
+    "owner": "News UK",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "spanish.people.com.cn": {
+    "owner": "Central Committee of the Chinese Communist Party",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "haiwainet.cn": {
+    "owner": "Central Committee of the Chinese Communist Party",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "paper.people.com.cn": {
+    "owner": "Central Committee of the Chinese Communist Party",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "peoplesdaily.pdnews.cn": {
+    "owner": "Central Committee of the Chinese Communist Party",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "en.people.cn": {
+    "owner": "Central Committee of the Chinese Communist Party",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "people.com.cn": {
+    "owner": "Central Committee of the Chinese Communist Party",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "berlingske.dk": {
+    "owner": "Berlingske Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "hollywoodreporter.com": {
+    "owner": "Penske Media Corporation",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "scotlandonsunday.scotsman.com": {
+    "owner": "Johnston Press",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "mediaindonesia.com": {
+    "owner": "Media Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "quotidiano.repubblica.it": {
+    "owner": "GEDI Gruppo Editoriale",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "repubblica.it": {
+    "owner": "GEDI Gruppo Editoriale",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "ijmuidercourant.nl": {
+    "owner": "Mediahuis",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "theprovince.com": {
+    "owner": "Postmedia Network",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "lr-online.de": {
+    "owner": "Holtzbrinck Publishing Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "sfchronicle.com": {
+    "owner": "Hearst Communications",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "zaman.com.tr": {
+    "owner": "Feza Publications",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "zamanarabic.com": {
+    "owner": "Feza Publications",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "zamanaustralia.com.au": {
+    "owner": "Feza Publications",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "proquest.umi.com": {
+    "owner": "Don King",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "washingtonpost.com": {
+    "owner": "Jeff Bezos",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "novayagazeta.ru": {
+    "owner": "Alexander Lebedev",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "zlv.lu": {
+    "owner": "Communist Party of Luxembourg",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "latimes.com": {
+    "owner": "Patrick Soon-Shiong",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "newsoftheworld.co.uk": {
+    "owner": "News Group Newspapers Ltd",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "telegraph.co.uk": {
+    "owner": "Telegraph Media Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "sakala.ajaleht.ee": {
+    "owner": "Postimees Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "dailymail.co.uk": {
+    "owner": "Jonathan Harmsworth, 4th Viscount Rothermere",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "nypost.com": {
+    "owner": "News Corp",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "20min.ch": {
+    "owner": "TX Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "lefigaro.fr": {
+    "owner": "Dassault Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "haaretz.co.il": {
+    "owner": "Leonid Nevzlin",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "haaretz.com": {
+    "owner": "Leonid Nevzlin",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "haw.nsk.hr": {
+    "owner": "JOJ Media House",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "24sata.hr": {
+    "owner": "Styria Media Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "mirror.co.uk": {
+    "owner": "Reach plc",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "seattletimes.com": {
+    "owner": "The Seattle Times Company",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "vecernji.hr": {
+    "owner": "Styria Media Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "bd.nl": {
+    "owner": "DPG Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "washingtonexaminer.com": {
+    "owner": "Clarity Media Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "sowetanlive.co.za": {
+    "owner": "Tiso Blackstar Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "excelsior.com.mx": {
+    "owner": "Grupo Imagen",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "ottawacitizen.com": {
+    "owner": "Postmedia Network",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "pme.ch": {
+    "owner": "Ringier Axel Springer Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "gallica.bnf.fr": {
+    "owner": "Lagard\u00e8re Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "philly.com": {
+    "owner": "Philadelphia Media Network",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "pointdevue.fr": {
+    "owner": "Q3117403",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "pontivyjournal.fr": {
+    "owner": "Groupe actu",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "pressrepublican.com": {
+    "owner": "CNHI",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "presseocean.fr": {
+    "owner": "SIPA - Ouest-France group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "pretorianews.co.za": {
+    "owner": "Sekunjalo Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "liverpooldailypost.co.uk": {
+    "owner": "Reach plc",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "leaderpost.com": {
+    "owner": "Postmedia Network",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "thevillager.com": {
+    "owner": "NYC Community Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "stltoday.com": {
+    "owner": "Lee Enterprises",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "derbytelegraph.co.uk": {
+    "owner": "Local World",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "superdeporte.es": {
+    "owner": "Prensa Ib\u00e9rica",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "stamfordadvocate.com": {
+    "owner": "Hearst Communications",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "burlingtonfreepress.com": {
+    "owner": "USA Today Co.",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "capitalgazette.com": {
+    "owner": "The Baltimore Sun",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "0-nouveau.europresse.com.pugwash.lib.warwick.ac.uk": {
+    "owner": "Cox Enterprises",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "infoweb.newsbank.com": {
+    "owner": "Chatham Asset Management",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "liverpool.idm.oclc.org": {
+    "owner": "GateHouse Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "search.ebscohost.com": {
+    "owner": "Lee Enterprises",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "jacksonville.com": {
+    "owner": "Morris Communications",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "ufdc.ufl.edu": {
+    "owner": "Carl Ramos",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "kansascity.com": {
+    "owner": "The McClatchy Company",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "palmbeachpost.com": {
+    "owner": "Cox Enterprises",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "pbpost.com": {
+    "owner": "Cox Enterprises",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "gopbi.com": {
+    "owner": "Cox Enterprises",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "hdl.loc.gov": {
+    "owner": "Chatham Asset Management",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "providencejournal.com": {
+    "owner": "Dow Jones Local Media Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "fdlreporter.com": {
+    "owner": "USA Today Co.",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "saugusadvertiser.com": {
+    "owner": "GateHouse Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "wickedlocal.com": {
+    "owner": "GateHouse Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "citizen.co.za": {
+    "owner": "Naspers",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "tamilmurasu.com.sg": {
+    "owner": "Singapore Press Holdings",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "programme-television.org": {
+    "owner": "Lagard\u00e8re News",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "telecablesat.fr": {
+    "owner": "Michel Hommell Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "sandiegouniontribune.com": {
+    "owner": "Tribune Publishing",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "vsd.fr": {
+    "owner": "Prisma Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "valeursactuelles.com": {
+    "owner": "Valmonde",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "varmatin.com": {
+    "owner": "Q17355286",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "ftp.nicematin.fr": {
+    "owner": "Q17355286",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "femina.fr": {
+    "owner": "Lagard\u00e8re News",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "voixdelahautemarne.fr": {
+    "owner": "groupe HCR",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "vosgesmatin.fr": {
+    "owner": "EBRA Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "blick.ch": {
+    "owner": "Ringier",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "volkskrant.nl": {
+    "owner": "DPG Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "csmonitor.com": {
+    "owner": "Christian Science Publishing Society",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "alhayat.com": {
+    "owner": "Khalid bin Sultan",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "cleveland.com": {
+    "owner": "Advance Publications",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "seattlepi.com": {
+    "owner": "Hearst Communications",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "ahram.org.eg": {
+    "owner": "Al Ahram Publishing",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "english.ahram.org.eg": {
+    "owner": "Al Ahram Publishing",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "french.ahram.org.eg": {
+    "owner": "Al Ahram Publishing",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "newspaper.albaathmedia.sy": {
+    "owner": "Arab Socialist Ba'ath Party \u2013 Syria Region",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "en.newspaper.albaathmedia.sy": {
+    "owner": "Arab Socialist Ba'ath Party \u2013 Syria Region",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "fr.newspaper.albaathmedia.sy": {
+    "owner": "Arab Socialist Ba'ath Party \u2013 Syria Region",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "ohtuleht.ee": {
+    "owner": "Vend Marketplaces",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "aamulehti.fi": {
+    "owner": "Sanoma Corporation",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "corriere.it": {
+    "owner": "Mario Crespi",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "tageblatt.com.ar": {
+    "owner": "Roberto Alemann",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "fr.de": {
+    "owner": "Zeitungsholding Hessen",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "hurriyet.com.tr": {
+    "owner": "Demir\u00f6ren Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "turkiyegazetesi.com.tr": {
+    "owner": "\u0130hlas Holding",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "observer.co.uk": {
+    "owner": "Q131846276",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "cisweb.lexis-nexis.com": {
+    "owner": "Chatham Asset Management",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "dds.crl.edu": {
+    "owner": "Clint Reilly",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "sacbee.com": {
+    "owner": "The McClatchy Company",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "hs.fi": {
+    "owner": "Sanoma Corporation",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "jakartaglobe.id": {
+    "owner": "BeritaSatu Media Holdings",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "politiken.dk": {
+    "owner": "JP/Politikens Hus",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "telerama.fr": {
+    "owner": "Groupe Le Monde",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "monitor.co.ug": {
+    "owner": "Nation Media Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "triumphpc.com": {
+    "owner": "Bill Harry",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "smh.com.au": {
+    "owner": "Fairfax Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "ahaonline.cz": {
+    "owner": "Czech News Center",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "adevarul.ro": {
+    "owner": "Adev\u0103rul Holding",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "portlandtribune.com": {
+    "owner": "Pamplin Media Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "toledoblade.com": {
+    "owner": "Block Communications",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "aszabadasag.hu": {
+    "owner": "Hungarian Workers\u2019 Party",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "novilist.hr": {
+    "owner": "JOJ Media House",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "novine.novilist.hr": {
+    "owner": "JOJ Media House",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "eldiariomontanes.es": {
+    "owner": "Vocento",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "anphoblacht.com": {
+    "owner": "Sinn F\u00e9in",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "chosun.com": {
+    "owner": "Chosun Media Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "koreatimes.co.kr": {
+    "owner": "Hankook Ilbo",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "adn.com": {
+    "owner": "Alaska Dispatch",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "koreajoongangdaily.joins.com": {
+    "owner": "The Joong-ang Ilbo",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "washingtontimes.com": {
+    "owner": "News World Communications",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "dailynews.com": {
+    "owner": "Digital First Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "lejdd.fr": {
+    "owner": "Lagard\u00e8re News",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "jemabonne.fr": {
+    "owner": "Lagard\u00e8re News",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "thisdaylive.com": {
+    "owner": "Nduka Obaigbena",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "jamejamonline.ir": {
+    "owner": "Islamic Republic of Iran Broadcasting",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "expansion.com": {
+    "owner": "Unidad Editorial",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "lepeuple.be": {
+    "owner": "Mischa\u00ebl Modrikamen",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "milliyet.com.tr": {
+    "owner": "Demir\u00f6ren Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "e-typos.com": {
+    "owner": "Theodoros Angelopoulos",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "eleftherostypos.gr": {
+    "owner": "Theodoros Angelopoulos",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "sabah.com.tr": {
+    "owner": "\u00c7al\u0131k Holding",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "mercurynews.com": {
+    "owner": "Bay Area News Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "bayarea.com": {
+    "owner": "Bay Area News Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "chicago.suntimes.com": {
+    "owner": "Sun-Times Media Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "suntimes.com": {
+    "owner": "Sun-Times Media Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "lemoniteur.fr": {
+    "owner": "Infopro Digital",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "boutique.lemoniteur.fr": {
+    "owner": "Infopro Digital",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "library.pressdisplay.com": {
+    "owner": "Philadelphia Media Network",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "inquirer.com": {
+    "owner": "Philadelphia Media Network",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "freep.com": {
+    "owner": "USA Today Co.",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "newslibrary.infi.net": {
+    "owner": "USA Today Co.",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "vaol.hu": {
+    "owner": "Mediaworks Hungary",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "arabnews.com": {
+    "owner": "Turki bin Salman Al Saud",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "hankyung.com": {
+    "owner": "Hyundai Mobis",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "kedglobal.com": {
+    "owner": "Hyundai Mobis",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "lj3le7zk2e.search.serialssolutions.com": {
+    "owner": "Pamplin Media Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "site.securities.com": {
+    "owner": "Mortimer Zuckerman",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "nydailynews.com": {
+    "owner": "Mortimer Zuckerman",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "rbc.ru": {
+    "owner": "Grigory Beryozkin",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "rbcinfosystems.com": {
+    "owner": "Grigory Beryozkin",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "nla.gov.au": {
+    "owner": "News Corp",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "theage.com.au": {
+    "owner": "Nine Entertainment Co.",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "thecatholicherald.com": {
+    "owner": "Rocco Forte",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "lanuovasardegna.it": {
+    "owner": "GEDI Gruppo Editoriale",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "record.pt": {
+    "owner": "Medialivre",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "haarlemsdagblad.nl": {
+    "owner": "Margaretha van Bancken",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "sundaytimes.co.za": {
+    "owner": "Tiso Blackstar Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "thenorthernecho.co.uk": {
+    "owner": "Newsquest",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "standard.co.uk": {
+    "owner": "Justin Byam Shaw",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "parismatch.com": {
+    "owner": "Lagard\u00e8re News",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "aletihad.ae": {
+    "owner": "Abu Dhabi Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "fd.nl": {
+    "owner": "FD Mediagroep",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "stacks.loc.gov": {
+    "owner": "Sightline Media Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "search.epnet.com": {
+    "owner": "Sightline Media Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "armytimes.com": {
+    "owner": "Sightline Media Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "lesoir.be": {
+    "owner": "Rossel",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "limburger.nl": {
+    "owner": "Mediahuis",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "kleinezeitung.at": {
+    "owner": "Styria Media Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "destentor.nl": {
+    "owner": "DPG Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "spitsnieuws.nl": {
+    "owner": "Mediahuis Nederland",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "depers.nl": {
+    "owner": "Marcel Boekhoorn",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "udn.com": {
+    "owner": "United Daily News Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "chinatimes.com": {
+    "owner": "China Times Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "citizen-times.com": {
+    "owner": "USA Today Co.",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "journal.courrier-picard.fr": {
+    "owner": "Rossel La Voix Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "courrier-picard.fr": {
+    "owner": "Rossel La Voix Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "ad.se": {
+    "owner": "Bonnier Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "di.se": {
+    "owner": "Bonnier Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "larepublica.co": {
+    "owner": "Carlos Ardila L\u00fclle",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "silive.com": {
+    "owner": "Advance Publications",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "wyborcza.pl": {
+    "owner": "Agora SA",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "osservatoreromano.va": {
+    "owner": "Holy See",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "orlandosentinel.com": {
+    "owner": "Martin Andersen",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "iz.ru": {
+    "owner": "National Media Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "gazetevatan.com": {
+    "owner": "Demir\u00f6ren Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "lexpress.fr": {
+    "owner": "Patrick Drahi",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "bostonherald.com": {
+    "owner": "Digital First Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "cronista.com": {
+    "owner": "Grupo Am\u00e9rica",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "avante.pt": {
+    "owner": "Portuguese Communist Party",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "bndestem.nl": {
+    "owner": "DPG Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "br.az": {
+    "owner": "Administrative Department of the President",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "beeld.co.za": {
+    "owner": "Naspers",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "netwerk24.com": {
+    "owner": "Naspers",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "jyllands-posten.dk": {
+    "owner": "JP/Politikens Hus",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "bibpurl.oclc.org": {
+    "owner": "EO Media Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "boston.com": {
+    "owner": "The New York Times Company",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "bostonglobe.com": {
+    "owner": "The New York Times Company",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "alwatan.com.sa": {
+    "owner": "Bandar ibn Khalid Al-Faisal Al Saud",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "cn.chinadaily.com.cn": {
+    "owner": "Chinese Communist Party",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "chinadaily.com.cn": {
+    "owner": "Chinese Communist Party",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "monde-diplomatique.fr": {
+    "owner": "Le Monde Diplomatique SA",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "seattleweekly.com": {
+    "owner": "Black Press",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "utusan.com.my": {
+    "owner": "Q97530943",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "villagevoice.com": {
+    "owner": "Carter Burden",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "blic.rs": {
+    "owner": "Ringier",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "dallasnews.com": {
+    "owner": "DallasNews Corporation",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "nepszabadsag.hu": {
+    "owner": "Mediaworks Hungary",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "nol.hu": {
+    "owner": "Mediaworks Hungary",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "gazzettino.it": {
+    "owner": "Caltagirone Editore",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "diariovasco.com": {
+    "owner": "Vocento",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "marca.com": {
+    "owner": "Unidad Editorial",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "xtramagazine.com": {
+    "owner": "Pink Triangle Press",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "lastampa.it": {
+    "owner": "Fiat Chrysler Automobiles",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "concordmonitor.com": {
+    "owner": "Newspapers of New England",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "ctpost.com": {
+    "owner": "Hearst Communications",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "lexisnexis.co.uk": {
+    "owner": "LexisNexis",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "eastbaytimes.com": {
+    "owner": "Digital First Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "convertingmagazine.com": {
+    "owner": "Reed Business Information",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "loc.gov": {
+    "owner": "USA Today Co.",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "billingsgazette.com": {
+    "owner": "Lee Enterprises",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "birminghampost.net": {
+    "owner": "John Jaffray",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "blackpoolgazette.co.uk": {
+    "owner": "Johnston Press",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "bdtonline.com": {
+    "owner": "CNHI",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "mykawartha.com": {
+    "owner": "Metroland Media Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "boonvilledailynews.com": {
+    "owner": "GateHouse Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "borgerherald.com": {
+    "owner": "CNHI",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "bournemouthecho.co.uk": {
+    "owner": "USA Today Co.",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "0-infoweb.newsbank.com.nell.boulder.lib.co.us": {
+    "owner": "Pioneer News Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "bozemandailychronicle.com": {
+    "owner": "Pioneer News Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "bradfordtimes.ca": {
+    "owner": "Postmedia Network",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "brainerddispatch.com": {
+    "owner": "Forum Communications",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "reformer.com": {
+    "owner": "MediaNews Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "thefacts.com": {
+    "owner": "Southern Newspapers",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "pudhari.com": {
+    "owner": "Pratapsinh Jadhav",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "heraldcourier.com": {
+    "owner": "Lee Enterprises",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "brooklyneagle.com": {
+    "owner": "Frank D. Schroth",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "broomfieldenterprise.com": {
+    "owner": "Prairie Mountain Publishing",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "brownwoodtx.com": {
+    "owner": "GateHouse Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "brushnewstribune.com": {
+    "owner": "Prairie Mountain Publishing",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "bucksherald.co.uk": {
+    "owner": "Johnston Press",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "burlingtoncountytimes.com": {
+    "owner": "Calkins Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "burlington-record.com": {
+    "owner": "Prairie Mountain Publishing",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "burnabynewsleader.com": {
+    "owner": "Glacier Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "burnabynow.com": {
+    "owner": "Glacier Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "burnleyexpress.net": {
+    "owner": "Johnston Press",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "echo.net.au": {
+    "owner": "News Corp",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "busqueda.com.uy": {
+    "owner": "Magnolio Media Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "cats.com.sg": {
+    "owner": "Singapore Press Holdings",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "housinganddevelopment.com": {
+    "owner": "CD Publications",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "callandpost.com": {
+    "owner": "Don King",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "search.proquest.com": {
+    "owner": "Sightline Media Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "cambridgechron.com": {
+    "owner": "GateHouse Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "cambridge-news.co.uk": {
+    "owner": "Local World",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "camrosecanadian.com": {
+    "owner": "Postmedia Network",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "canmoreleader.com": {
+    "owner": "Sun Media Corporation",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "coloradocommunitymedia.com": {
+    "owner": "National Trust for Local News",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "canyoncourier.com": {
+    "owner": "National Trust for Local News",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "capecodtimes.com": {
+    "owner": "USA Today Co.",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "capecodonline.com": {
+    "owner": "USA Today Co.",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "capitolwire.com": {
+    "owner": "GovNet",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "currentargus.com": {
+    "owner": "USA Today Co.",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "carteretnewstimes.com": {
+    "owner": "Carteret Publishing Company",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "cartoonwatchindia.com": {
+    "owner": "Triambak Sharma",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "postandcourier.com": {
+    "owner": "Casa Grande Valley Newspapers Inc.",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "pinalcentral.com": {
+    "owner": "Casa Grande Valley Newspapers Inc.",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "trib.com": {
+    "owner": "Lee Enterprises",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "cathstan.org": {
+    "owner": "Carroll Publishing Company",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "cayuga-cc.edu": {
+    "owner": "Cayuga Community College",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "cenderawasihpos.com": {
+    "owner": "Jawa Pos Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "chillicothegazette.com": {
+    "owner": "USA Today Co.",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "centraloregonian.com": {
+    "owner": "Pamplin Media Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "centredaily.com": {
+    "owner": "The McClatchy Company",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "chainleader.com": {
+    "owner": "Reed Business Information",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "chathamthisweek.ca": {
+    "owner": "Postmedia Network",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "timesfreepress.com": {
+    "owner": "WEHCO Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "cheboygannews.com": {
+    "owner": "GateHouse Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "cherokeescout.com": {
+    "owner": "Community Newspapers Incorporated",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "chicagodispatcher.com": {
+    "owner": "WSBC",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "chicoer.com": {
+    "owner": "MediaNews Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "grantsandfunding.net": {
+    "owner": "CD Publications",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "chillicothenews.com": {
+    "owner": "GateHouse Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "chronicle-tribune.com": {
+    "owner": "Paxton Media Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "icnewcastle.icnetwork.co.uk": {
+    "owner": "Reach plc",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "thechurchnews.com": {
+    "owner": "Deseret News Publishing Company",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "citymessenger.com.au": {
+    "owner": "News Corp Australia",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "rochester-citynews.com": {
+    "owner": "WXXI Public Broadcasting Council",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "roccitymag.com": {
+    "owner": "WXXI Public Broadcasting Council",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "ciudadccs.info": {
+    "owner": "Venezuelan Ministry of Communications and Information",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "theclackamasprint.com": {
+    "owner": "Clackamas Community College",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "claremoreprogress.com": {
+    "owner": "CNHI",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "claycountyprogress.com": {
+    "owner": "Community Newspapers Incorporated",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "cleburnetimesreview.com": {
+    "owner": "CNHI",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "thisissomerset.co.uk": {
+    "owner": "Local World",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "clintonherald.com": {
+    "owner": "CNHI",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "clintonnewsrecord.ca": {
+    "owner": "Postmedia Network",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "pendletoday.co.uk": {
+    "owner": "Johnston Press",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "cochranetimespost.com": {
+    "owner": "Postmedia Network",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "coloradodaily.com": {
+    "owner": "MediaNews Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "commercial-news.com": {
+    "owner": "CNHI",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "somerset-kentucky.com": {
+    "owner": "CNHI",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "duluthbudgeteer.com": {
+    "owner": "Forum Communications",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "link.galegroup.com": {
+    "owner": "Block Communications",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "duluthnews.com": {
+    "owner": "Forum Communications",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "duluthnewstribune.com": {
+    "owner": "Forum Communications",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "duncanbanner.com": {
+    "owner": "CNHI",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "dunfermlinepress.com": {
+    "owner": "Newsquest",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "stategazette.com": {
+    "owner": "Rust Communications",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "iisd.ca": {
+    "owner": "International Institute for Sustainable Development",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "kentonline.co.uk": {
+    "owner": "KM Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "eastoregonian.com": {
+    "owner": "EO Media Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "oregonnews.uoregon.edu": {
+    "owner": "EO Media Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "messengereast.com.au": {
+    "owner": "News Corp Australia",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "easterneye.biz": {
+    "owner": "Asian Media Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "edmondsun.com": {
+    "owner": "CNHI",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "thenownews.com": {
+    "owner": "Glacier Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "cordeledispatch.com": {
+    "owner": "CNHI",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "cornwallseawaynews.com": {
+    "owner": "TC Transcontinental",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "correio.lu": {
+    "owner": "Editpress Luxembourg",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "corsicanadailysun.com": {
+    "owner": "CNHI",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "access.newspaperarchive.com": {
+    "owner": "Lee Enterprises",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "gazettetimes.com": {
+    "owner": "Lee Enterprises",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "courierpostonline.com": {
+    "owner": "USA Today Co.",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "mycentraljersey.com": {
+    "owner": "USA Today Co.",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "coventrytelegraph.net": {
+    "owner": "Reach plc",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "cravenherald.co.uk": {
+    "owner": "Newsquest",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "crookstontimes.com": {
+    "owner": "GateHouse Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "croydonguardian.co.uk": {
+    "owner": "Newsquest",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "times-news.com": {
+    "owner": "CNHI",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "curentul.info:8080": {
+    "owner": "Pamfil \u0218eicaru",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "housingzone.com": {
+    "owner": "Reed Business Information",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "borsen.dk": {
+    "owner": "JP/Politikens Hus",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "dagensit.no": {
+    "owner": "DN Media Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "dailyamericannews.com": {
+    "owner": "GateHouse Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "dailybreeze.com": {
+    "owner": "Digital First Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "dailycamera.com": {
+    "owner": "MediaNews Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "dailycommercial.com": {
+    "owner": "GateHouse Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "gazettenet.com": {
+    "owner": "Newspapers of New England",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "rrdailyherald.com": {
+    "owner": "Paxton Media Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "heraldextra.com": {
+    "owner": "Lee Enterprises",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "dailyillini.com": {
+    "owner": "Illini Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "dailyiowegian.com": {
+    "owner": "CNHI",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "dailyjournal.net": {
+    "owner": "AIM Media Indiana",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "djcoregon.com": {
+    "owner": "USA Today Co.",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "dailylocal.com": {
+    "owner": "21st Century Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "dailymercury.com.au": {
+    "owner": "APN News & Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "mpnnow.com": {
+    "owner": "GateHouse Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "rockinghamnow.com": {
+    "owner": "Berkshire Hathaway",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "redbluffdailynews.com": {
+    "owner": "MediaNews Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "0-nexis.com.pugwash.lib.warwick.ac.uk": {
+    "owner": "Advance Publications",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "0-search.proquest.com.pugwash.lib.warwick.ac.uk": {
+    "owner": "Advance Publications",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "dnrnews.com": {
+    "owner": "Advance Publications",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "my2vs8lv9p.search.serialssolutions.com": {
+    "owner": "Advance Publications",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "dailypress.net": {
+    "owner": "Ogden Newspapers",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "dailypress.com": {
+    "owner": "Tribune Publishing",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "drf.com": {
+    "owner": "Arlington Capital Partners",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "dailyrecord.com": {
+    "owner": "USA Today Co.",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "dailyrecordnews.com": {
+    "owner": "Pioneer News Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "greenfieldreporter.com": {
+    "owner": "AIM Media Indiana",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "reviewatlas.com": {
+    "owner": "GateHouse Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "dailystar.co.uk": {
+    "owner": "Richard Desmond",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "dailysun.co.za": {
+    "owner": "Naspers",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "dallasobserver.com": {
+    "owner": "Voice Media Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "darlingtonandstocktontimes.co.uk": {
+    "owner": "Newsquest",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "daventryexpress.co.uk": {
+    "owner": "Johnston Press",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "sharpdaily.com.tw": {
+    "owner": "Next Digital",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "0-bpe.europresse.com.pugwash.lib.warwick.ac.uk": {
+    "owner": "Cox Enterprises",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "0-lexisnexis.com.emu.londonmet.ac.uk": {
+    "owner": "Cox Enterprises",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "daytondailynews.com": {
+    "owner": "Cox Enterprises",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "glasistre.hr": {
+    "owner": "JOJ Media House",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "delrionewsherald.com": {
+    "owner": "Southern Newspapers",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "delcotimes.com": {
+    "owner": "21st Century Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "dv.ee": {
+    "owner": "Bonnier Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "digar.ee": {
+    "owner": "Eesti Ajalehed",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "dea.digar.ee": {
+    "owner": "Eesti Ajalehed",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "democratandchronicle.com": {
+    "owner": "USA Today Co.",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "dentonrc.com": {
+    "owner": "DallasNews Corporation",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "derbyshiretimes.co.uk": {
+    "owner": "Johnston Press",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "designnews.com": {
+    "owner": "UBM plc",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "devilslakejournal.com": {
+    "owner": "GateHouse Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "2001online.com": {
+    "owner": "Bloque De Armas",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "meridiano.net": {
+    "owner": "Bloque De Armas",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "northernadvocate.co.nz": {
+    "owner": "Hugh Crawford",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "paperspast.natlib.govt.nz": {
+    "owner": "APN News & Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "times-age.co.nz": {
+    "owner": "APN News & Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "natlib-primo.hosted.exlibrisgroup.com": {
+    "owner": "APN News & Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "eastlondonadvertiser.co.uk": {
+    "owner": "Archant",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "dodgeglobe.com": {
+    "owner": "GateHouse Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "chroniclingamerica.loc.gov": {
+    "owner": "Lee Enterprises",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "donaldsonvillechief.com": {
+    "owner": "GateHouse Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "donegaldemocrat.com": {
+    "owner": "Johnston Press Ireland",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "donya-e-eqtesad.com": {
+    "owner": "Alireza Bakhtiari",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "dorsetecho.co.uk": {
+    "owner": "Newsquest",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "dothaneagle.com": {
+    "owner": "Lee Enterprises",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "doverpost.com": {
+    "owner": "GateHouse Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "draytonvalleywesternreview.com": {
+    "owner": "Postmedia Network",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "driffieldtoday.co.uk": {
+    "owner": "Johnston Press",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "duquoin.com": {
+    "owner": "GateHouse Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "lavoz.com.ar": {
+    "owner": "Clar\u00edn Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "levada.ru": {
+    "owner": "Levada Center",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "ng.ru": {
+    "owner": "Konstantin Remchukov",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "laweekly.com": {
+    "owner": "Village Voice Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "valor.com.br": {
+    "owner": "Infoglobo",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "chicagodefender.com": {
+    "owner": "Real Times",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "journalnow.com": {
+    "owner": "Media General",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "rue89.com": {
+    "owner": "Q3117520",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "oglobo.com.br": {
+    "owner": "Grupo Globo",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "jconline.com": {
+    "owner": "USA Today Co.",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "bangaloremirror.com": {
+    "owner": "The Times Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "bangaloremirror.indiatimes.com": {
+    "owner": "The Times Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "omamedia.ru": {
+    "owner": "Periodika",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "politico.eu": {
+    "owner": "Politico",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "bugun.com.tr": {
+    "owner": "Koza \u0130pek Holding Company",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "nj.com": {
+    "owner": "Advance Publications",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "calgaryherald.com": {
+    "owner": "Postmedia Network",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "sagat.no": {
+    "owner": "Q3358656",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "deseret.com": {
+    "owner": "Deseret News Publishing Company",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "mk.ru": {
+    "owner": "Pavel Gusev",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "churchtimes.co.uk": {
+    "owner": "Hymns Ancient and Modern",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "citypress.co.za": {
+    "owner": "Naspers",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "city-press.news24.com": {
+    "owner": "Naspers",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "granma.cu": {
+    "owner": "Communist Party of Cuba",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "granma.cubaweb.cu": {
+    "owner": "Communist Party of Cuba",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "yediot.co.il": {
+    "owner": "Arnon Mozes",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "caller.com": {
+    "owner": "USA Today Co.",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "courrierinternational.com": {
+    "owner": "Groupe Le Monde",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "bbc.co.uk": {
+    "owner": "British Broadcasting Corporation",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "bbc.com": {
+    "owner": "British Broadcasting Corporation",
+    "funding": "Publicly funded via television license fee",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "dawn.com": {
+    "owner": "Dawn Media Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "gelderlander.nl": {
+    "owner": "DPG Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "gooieneemlander.nl": {
+    "owner": "Mediahuis",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "standaard.be": {
+    "owner": "Corelio",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "tubantia.nl": {
+    "owner": "DPG Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "novosti.rs": {
+    "owner": "Novosti AD",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "nzherald.co.nz": {
+    "owner": "Wilson & Horton",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "moscowtimes.ru": {
+    "owner": "Derk Sauer",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "themoscowtimes.com": {
+    "owner": "Derk Sauer",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "dieburger.com": {
+    "owner": "Naspers",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "gazeta-shqip.com": {
+    "owner": "Top Media Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "reformatusoklapja.hu": {
+    "owner": "Reformed Church in Hungary",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "jeuneafrique.com": {
+    "owner": "Jeune Afrique Media Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "people.co.uk": {
+    "owner": "Reach plc",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "oslobodjenje.ba": {
+    "owner": "Sarajevska Pivara",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "glueckspost.ch": {
+    "owner": "Ringier Axel Springer Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "lasvegasweekly.com": {
+    "owner": "Greenspun Media Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "jutarnji.hr": {
+    "owner": "Europapress Holding",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "news-eleven.com": {
+    "owner": "Eleven Media Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "slobodnadalmacija.com": {
+    "owner": "Europapress Holding",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "slobodnadalmacija.hr": {
+    "owner": "Europapress Holding",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "dailypioneer.com": {
+    "owner": "Chandan Mitra",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "elcomercio.es": {
+    "owner": "Vocento",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "ekspress.ee": {
+    "owner": "Eesti Ajalehed",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "ekspress.delfi.ee": {
+    "owner": "Eesti Ajalehed",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "ed.nl": {
+    "owner": "DPG Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "fakt.pl": {
+    "owner": "Ringier Axel Springer Polska",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "jagran.com": {
+    "owner": "Jagran Prakashan Limited",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "elespectador.com": {
+    "owner": "Julio Mario Santo Domingo",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "elnuevoherald.com": {
+    "owner": "The McClatchy Company",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "sptimes.ru": {
+    "owner": "Sanoma Corporation",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "expresso.pt": {
+    "owner": "Impresa",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "buffalonews.com": {
+    "owner": "Berkshire Hathaway",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "lexisnexis.com": {
+    "owner": "Block Communications",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "resolver.library.ualberta.ca": {
+    "owner": "Berkshire Hathaway",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "resolver.lrc.macewan.ca": {
+    "owner": "Berkshire Hathaway",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "lalsace.fr": {
+    "owner": "EBRA Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "kvinnheringen.no": {
+    "owner": "Amedia",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "frieschdagblad.nl": {
+    "owner": "NDC Mediagroep",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "volksblad.com": {
+    "owner": "Media24",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "maaleht.delfi.ee": {
+    "owner": "Eesti Ajalehed",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "svd.se": {
+    "owner": "Vend Marketplaces",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "hurriyetdailynews.com": {
+    "owner": "Do\u011fan Media Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "azcentral.com": {
+    "owner": "USA Today Co.",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "leeuwardercourant.nl": {
+    "owner": "Mediahuis",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "lc.nl": {
+    "owner": "Mediahuis",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "wa.de": {
+    "owner": "Ippen Digital",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "oregonlive.com": {
+    "owner": "Advance Publications",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "montrealgazette.com": {
+    "owner": "Postmedia Network",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "gp.se": {
+    "owner": "Stampen Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "courier-journal.com": {
+    "owner": "USA Today Co.",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "jornalnoticias.co.mz": {
+    "owner": "Sociedade do Not\u00edcias",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "tronc-hartford-courant-prod.origin.arcpublishing.com": {
+    "owner": "Tribune Publishing",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "courant.com": {
+    "owner": "Tribune Publishing",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "nexis.com": {
+    "owner": "Tribune Publishing",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "thepoint.gm": {
+    "owner": "Pap Saine",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "hna.de": {
+    "owner": "Radio/Tele FFH",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "businesslive.co.za": {
+    "owner": "Tiso Blackstar Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "pzc.nl": {
+    "owner": "DPG Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "rapport.co.za": {
+    "owner": "Naspers",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "prothomalo.com": {
+    "owner": "Transcom Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "digitalmicrofilm1.proquest.com": {
+    "owner": "Clint Reilly",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "examiner.com": {
+    "owner": "Clint Reilly",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "sfexaminer.com": {
+    "owner": "Clint Reilly",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "lne.es": {
+    "owner": "Prensa Ib\u00e9rica",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "navhindtimes.com": {
+    "owner": "Dempo",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "livemint.com": {
+    "owner": "HT Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "republika.co.id": {
+    "owner": "Mahaka Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "business-standard.com": {
+    "owner": "Kotak Mahindra Bank",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "lequotidien.lu": {
+    "owner": "Editpress Luxembourg",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "indystar.com": {
+    "owner": "USA Today Co.",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "irandaily.ir": {
+    "owner": "Islamic Republic News Agency",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "jde.fr": {
+    "owner": "EBRA Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "alwihdainfo.com": {
+    "owner": "Ahmat Yacoub",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "star-telegram.com": {
+    "owner": "The McClatchy Company",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "drome-hebdo.fr": {
+    "owner": "groupe HCR",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "graphic.com.gh": {
+    "owner": "Graphic Communications Group Limited",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "sundayobserver.lk": {
+    "owner": "Associated Newspapers of Ceylon Limited",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "ocregister.com": {
+    "owner": "Digital First Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "stuff.co.nz": {
+    "owner": "Fairfax Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "perthnow.com.au": {
+    "owner": "Seven West Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "iltalehti.fi": {
+    "owner": "Alma Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "today.gm": {
+    "owner": "Abdul Hamid Adiamoh",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "levif.be": {
+    "owner": "Roularta Media Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "vijaykarnataka.com": {
+    "owner": "The Times Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "limonka.nbp-info.com": {
+    "owner": "National Bolshevik Party",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "thenationalnews.com": {
+    "owner": "International Media Investments",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "normarmara.com": {
+    "owner": "Rober Haddeciyan",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "diariandorra.ad": {
+    "owner": "Premsa Andorrana",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "almustaqbal.com": {
+    "owner": "Saad Harir\u1ecb",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "gateway.proquest.com": {
+    "owner": "Block Communications",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "denverpost.com": {
+    "owner": "Digital First Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "walesonline.co.uk": {
+    "owner": "Henry Lascelles Carr",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "detnews.com": {
+    "owner": "Digital First Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "detroitnews.com": {
+    "owner": "Digital First Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "adn.es": {
+    "owner": "Grupo Planeta",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "sportske.jutarnji.hr": {
+    "owner": "Europapress Holding",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "thephoenix.com": {
+    "owner": "Phoenix Media/Communications Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "lesinrocks.com": {
+    "owner": "Q3299928",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "boutique.lesinrocks.com": {
+    "owner": "Q3299928",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "gallicaintramuros.bnf.fr": {
+    "owner": "Q3299928",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "amny.com": {
+    "owner": "Schneps Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "africaintelligence.fr": {
+    "owner": "Indigo Publications",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "lanueva.com": {
+    "owner": "Vicente Massot",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "heraldtribune.com": {
+    "owner": "GateHouse Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "kosmo.com.my": {
+    "owner": "Q97530943",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "dinamani.com": {
+    "owner": "The New Indian Express",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "prajavani.net": {
+    "owner": "The Printers Mysore",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "bathchronicle.co.uk": {
+    "owner": "Local World",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "alhayat-j.com": {
+    "owner": "Palestinian National Authority",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "yu7rz9hn8y.search.serialssolutions.com": {
+    "owner": "Lee Enterprises",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "bismarcktribune.com": {
+    "owner": "Lee Enterprises",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "en.davar1.co.il": {
+    "owner": "Histadrut",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "davar1.co.il": {
+    "owner": "Histadrut",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "stadsbladutrecht.nl": {
+    "owner": "Q105925593",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "calcalist.co.il": {
+    "owner": "Yedioth Ahronoth",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "capeargus.co.za": {
+    "owner": "Sekunjalo Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "saarf.co.za": {
+    "owner": "Sekunjalo Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "challenges.fr": {
+    "owner": "Q3117520",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "abo.challenges.fr": {
+    "owner": "Q3117520",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "prosport.ro": {
+    "owner": "PubliMedia International",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "retronews.fr": {
+    "owner": "Henri Desgrange",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "contacto.lu": {
+    "owner": "Mediahuis Luxembourg",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "lecourrierdelamayenne.fr": {
+    "owner": "Q111528996",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "cotecaen.fr": {
+    "owner": "Groupe actu",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "normandie-actu.fr": {
+    "owner": "Groupe actu",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "defensenews.com": {
+    "owner": "Sightline Media Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "awi.defensenews.com": {
+    "owner": "Sightline Media Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "isolezwe.co.za": {
+    "owner": "Sekunjalo Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "mercuriovalpo.cl": {
+    "owner": "El Mercurio Sociedad An\u00f3nima Period\u00edstica",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "elle.fr": {
+    "owner": "Hachette Filipacchi M\u00e9dias",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "em.com.br": {
+    "owner": "Di\u00e1rios Associados",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "post-gazette.com": {
+    "owner": "Block Communications",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "femmeactuelle.fr": {
+    "owner": "Prisma Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "flkeysnews.com": {
+    "owner": "The McClatchy Company",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "politico.com": {
+    "owner": "Axel Springer SE",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "greenbaypressgazette.com": {
+    "owner": "USA Today Co.",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "hautanjou.fr": {
+    "owner": "Q111528996",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "houstonpress.com": {
+    "owner": "Voice Media Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "intelligenceonline.fr": {
+    "owner": "Indigo Publications",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "intelligenceonline.com": {
+    "owner": "Indigo Publications",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "investir.lesechos.fr": {
+    "owner": "Les \u00c9chos",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "heraldbanner.com": {
+    "owner": "CNHI",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "rockwallheraldbanner.com": {
+    "owner": "CNHI",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "roysecityheraldbanner.com": {
+    "owner": "CNHI",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "herald.ie": {
+    "owner": "Independent News & Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "torquayheraldexpress.co.uk": {
+    "owner": "Local World",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "heraldandnews.com": {
+    "owner": "Pioneer News Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "herefordtimes.com": {
+    "owner": "Newsquest",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "hertfordshiremercury.co.uk": {
+    "owner": "Local World",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "hickoryrecord.com": {
+    "owner": "Lee Enterprises",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "highlandstoday.com": {
+    "owner": "Times Publishing Company",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "highlinetimes.com": {
+    "owner": "Robinson Newspapers",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "hillsborotribune.com": {
+    "owner": "Pamplin Media Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "epaper.livehindustan.com": {
+    "owner": "HT Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "livehindustan.com": {
+    "owner": "HT Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "hintonparklander.com": {
+    "owner": "Postmedia Network",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "elalmeria.es": {
+    "owner": "Joly Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "diariodejerez.es": {
+    "owner": "Joly Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "diariodeleon.es": {
+    "owner": "Edigrup Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "elliberal.com.ar": {
+    "owner": "Grupo Ick",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "elsoldemexico.com.mx": {
+    "owner": "Organizacion Editorial Mexicana",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "hopestar.com": {
+    "owner": "GateHouse Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "examinerlive.co.uk": {
+    "owner": "Reach plc",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "hulldailymail.co.uk": {
+    "owner": "Reach plc",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "lacapitalmdp.com": {
+    "owner": "Multimedios La Capital",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "latribuna.hn": {
+    "owner": "Carlos Roberto Flores",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "idahostatesman.com": {
+    "owner": "The McClatchy Company",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "independenttribune.com": {
+    "owner": "Lee Enterprises",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "idsnews.com": {
+    "owner": "UWIRE",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "inddist.com": {
+    "owner": "Reed Business Information",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "dailybulletin.com": {
+    "owner": "Digital First Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "intosaijournal.org": {
+    "owner": "International Organization of Supreme Audit Institutions",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "takvim.com.tr": {
+    "owner": "\u00c7al\u0131k Holding",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "sentinel-standard.com": {
+    "owner": "GateHouse Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "press-citizen.com": {
+    "owner": "USA Today Co.",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "irishcentral.com": {
+    "owner": "Niall O'Dowd",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "thestar.ie": {
+    "owner": "Independent News & Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "star.com.tr": {
+    "owner": "Q6089666",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "prensaobrera.com": {
+    "owner": "Workers' Party",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "jacksonfreepress.com": {
+    "owner": "Donna Ladd",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "jdnews.com": {
+    "owner": "GateHouse Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "jacksonvilleprogress.com": {
+    "owner": "CNHI",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "aitmc.org": {
+    "owner": "All India Trinamool Congress",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "epaper.jagobangla.in": {
+    "owner": "All India Trinamool Congress",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "jamestownsun.com": {
+    "owner": "Forum Communications",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "jasperbooster.com": {
+    "owner": "Sun Media Corporation",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "pjstar.com": {
+    "owner": "GateHouse Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "satakunnankansa.fi": {
+    "owner": "Alma Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "digi.kansalliskirjasto.fi": {
+    "owner": "Alma Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "mlive.com": {
+    "owner": "Booth Newspapers",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "kalerkantho.com": {
+    "owner": "East West Media Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "kcchronicle.com": {
+    "owner": "Shaw Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "kckansan.com": {
+    "owner": "GateHouse Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "koran-sindo.com": {
+    "owner": "Media Nusantara Citra",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "kauppalehti.fi": {
+    "owner": "Alma Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "kearneyhub.com": {
+    "owner": "Lee Enterprises",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "keighleynews.co.uk": {
+    "owner": "Newsquest",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "kjonline.com": {
+    "owner": "MaineToday Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "centralmaine.com": {
+    "owner": "MaineToday Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "kenoshanews.com": {
+    "owner": "United Communications Corporation",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "ricentral.com": {
+    "owner": "RISN Operations",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "kentonsunday.co.uk": {
+    "owner": "KOS Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "kerryseye.com": {
+    "owner": "P\u00e1draig Kennelly",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "keysnews.com": {
+    "owner": "Adams MultiMedia",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "kilkennypeople.ie": {
+    "owner": "Johnston Press Ireland",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "kingstonthisweek.com": {
+    "owner": "Postmedia Network",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "kmdn.gov.tw": {
+    "owner": "Kinmen County Government",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "kinston.com": {
+    "owner": "GateHouse Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "kirksvilledailyexpress.com": {
+    "owner": "GateHouse Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "kitsapsun.com": {
+    "owner": "USA Today Co.",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "kokomotribune.com": {
+    "owner": "CNHI",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "krishnapatrika.com": {
+    "owner": "Konda Venkatappaiah",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "kuwaittimes.net": {
+    "owner": "Yousuf Saleh Alyan",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "cronica.com.mx": {
+    "owner": "Jorge Kahwagi",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "voix.lu": {
+    "owner": "Mediahuis Luxembourg",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "lavozarizona.com": {
+    "owner": "USA Today Co.",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "lakecountyexam.com": {
+    "owner": "Pioneer News Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "pamplinmedia.com": {
+    "owner": "Pamplin Media Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "vh7qx3xe2p.search.serialssolutions.com": {
+    "owner": "Pamplin Media Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "lakepowellchronicle.com": {
+    "owner": "News Media Corporation",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "lakenewsonline.com": {
+    "owner": "GateHouse Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "lakeshoreadvance.com": {
+    "owner": "Postmedia Network",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "lamarledger.com": {
+    "owner": "Prairie Mountain Publishing",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "lancashiretelegraph.co.uk": {
+    "owner": "Newsquest",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "lansingstatejournal.com": {
+    "owner": "USA Today Co.",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "lmtonline.com": {
+    "owner": "Hearst Communications",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "haberturk.com": {
+    "owner": "Ciner Media Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "ha-halden.no": {
+    "owner": "Amedia",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "hmbreview.com": {
+    "owner": "Wick Communications",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "hannibal.net": {
+    "owner": "GateHouse Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "haravgi.com.cy": {
+    "owner": "Progressive Party of Working People",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "hartlepoolmail.co.uk": {
+    "owner": "Johnston Press",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "hattiesburgamerican.com": {
+    "owner": "USA Today Co.",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "edsonleader.com": {
+    "owner": "Postmedia Network",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "educationtimes.com": {
+    "owner": "The Times Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "theintelligencer.com": {
+    "owner": "Hearst Communications",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "effinghamdailynews.com": {
+    "owner": "CNHI",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "gpa.eastview.com": {
+    "owner": "Carl Ramos",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "elnorte.com": {
+    "owner": "Grupo Reforma",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "elnuevopais.net": {
+    "owner": "Rafael Poleo",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "softlineweb.com": {
+    "owner": "Carroll Publishing Company",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "elpreg.org": {
+    "owner": "Carroll Publishing Company",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "elsiglo.cl": {
+    "owner": "Communist Party of Chile",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "elsur.cl": {
+    "owner": "El Mercurio Sociedad An\u00f3nima Period\u00edstica",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "zahracleaning.com": {
+    "owner": "Dubai Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "enidnews.com": {
+    "owner": "CNHI",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "goerie.com": {
+    "owner": "GateHouse Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "essexcountystandard.co.uk": {
+    "owner": "Newsquest",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "europe.wsj.com": {
+    "owner": "Dow Jones & Company",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "ladiscusion.cl": {
+    "owner": "University of Concepci\u00f3n",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "reachsubs.co.uk": {
+    "owner": "Reach plc",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "eveningexpress.co.uk": {
+    "owner": "D. C. Thomson",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "thisisexeter.co.uk": {
+    "owner": "Local World",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "expressandstar.com": {
+    "owner": "Midland News Association",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "fsunews.com": {
+    "owner": "USA Today Co.",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "fabsmag.com": {
+    "owner": "Pink Triangle Press",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "fairborndailyherald.com": {
+    "owner": "Ohio Community Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "falkirktoday.co.uk": {
+    "owner": "Johnston Press",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "fermanaghherald.com": {
+    "owner": "North West of Ireland Printing and Publishing Company",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "fnlondon.com": {
+    "owner": "Dow Jones & Company",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "finnvalleypost.com": {
+    "owner": "River Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "finnmarksposten.no": {
+    "owner": "Amedia",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "books.google.com": {
+    "owner": "American Foreign Service Association",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "catalog.hathitrust.org": {
+    "owner": "American Foreign Service Association",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "afsa.org": {
+    "owner": "American Foreign Service Association",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "coloradoan.com": {
+    "owner": "USA Today Co.",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "fortmorgantimes.com": {
+    "owner": "Prairie Mountain Publishing",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "fortsaskatchewanrecord.com": {
+    "owner": "Postmedia Network",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "fstribune.com": {
+    "owner": "Rust Communications",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "fosters.com": {
+    "owner": "Dow Jones Local Media Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "elibrary.cf.ac.uk": {
+    "owner": "Dow Jones Local Media Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "charlotteobserver.com": {
+    "owner": "Chatham Asset Management",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "frasercoastchronicle.com.au": {
+    "owner": "APN News & Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "dailyreportonline.com": {
+    "owner": "ALM",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "ghll.truman.edu": {
+    "owner": "Truman State University",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "gainesvilleregister.com": {
+    "owner": "CNHI",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "galioninquirer.com": {
+    "owner": "Ohio Community Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "gazeta55.net": {
+    "owner": "Fahri Balliu",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "gazetteandherald.co.uk": {
+    "owner": "Newsquest",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "geelongadvertiser.com.au": {
+    "owner": "News Corp",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "geelongindy.com.au": {
+    "owner": "Star News Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "glasgowdailytimes.com": {
+    "owner": "CNHI",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "globegazette.com": {
+    "owner": "Lee Enterprises",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "glossopadvertiser.co.uk": {
+    "owner": "Reach plc",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "gloucestertimes.com": {
+    "owner": "CNHI",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "gloucestershirelive.co.uk": {
+    "owner": "Local World",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "goldcoastbulletin.com.au": {
+    "owner": "News Corp Australia",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "goldentranscript.net": {
+    "owner": "National Trust for Local News",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "gtweekly.com": {
+    "owner": "Metro Newspapers",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "goodtimes.sc": {
+    "owner": "Metro Newspapers",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "goreyguardian.ie": {
+    "owner": "Independent News & Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "grahamstar.com": {
+    "owner": "Community Newspapers Incorporated",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "grandforksgazette.ca": {
+    "owner": "Black Press",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "granvillesentinel.com": {
+    "owner": "USA Today Co.",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "umi.com": {
+    "owner": "Reed Business Information",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "gammag.com": {
+    "owner": "Reed Business Information",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "reedbusiness.com": {
+    "owner": "Reed Business Information",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "gcnewsgazette.com": {
+    "owner": "Civitas Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "messenger-inquirer.com": {
+    "owner": "Civitas Media",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "greatfallstribune.com": {
+    "owner": "USA Today Co.",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "greenocktelegraph.co.uk": {
+    "owner": "Newsquest",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "greensburgdailynews.com": {
+    "owner": "CNHI",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "greenwichtime.com": {
+    "owner": "Hearst Communications",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "guardianmessenger.com.au": {
+    "owner": "News Corp Australia",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "guardian.co.uk": {
+    "owner": "Guardian Media Group",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "guelphmercury.com": {
+    "owner": "Torstar",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "jansatta.com": {
+    "owner": "Indian Express Limited",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  },
+  "heraldscotland.com": {
+    "owner": "Newsquest",
+    "funding": "Publicly available / Tracked via Wikidata",
+    "source": "https://www.wikidata.org/",
+    "trust_level": "Verified"
+  }
+}

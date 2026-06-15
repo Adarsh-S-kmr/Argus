@@ -1,0 +1,36 @@
+name: "Media Ownership / Funding Update"
+description: "Submit ownership or funding details for an unmapped or incorrect news domain."
+title: "[Data Update]: "
+labels: ["data update", "triage"]
+body:
+  - type: input
+    id: domain
+    attributes:
+      label: Domain Name
+      description: What is the domain of the news outlet? (e.g., localnews.com)
+      placeholder: "example.com"
+    validations:
+      required: true
+  - type: input
+    id: owner
+    attributes:
+      label: Owner / Parent Company
+      description: Who owns or operates this website?
+      placeholder: "Example Media Group LLC"
+    validations:
+      required: true
+  - type: input
+    id: funding
+    attributes:
+      label: Funding Model
+      description: How are they funded? (e.g., Publicly Traded, Non-profit, Local Subscriptions, PAC)
+      placeholder: "Private, Subscription-based"
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source/Proof
+      description: Please provide a link proving this ownership (Wikipedia, About page, SEC filing).
+    validations:
+      required: true
