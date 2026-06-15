@@ -92,6 +92,26 @@ function analyzeText(text, headline) {
   return { wc, emoFound, hedgeFound, opinionFound, quotes, attributions, dataRefs, sourcingScore, claims: claims.slice(0, 5), headEmo, clickbait, risks, riskLevel };
 }
 
+// ── Helpers ──
+
+function sectionToggle() {
+  return `onclick="const b=this.nextElementSibling;b.style.display=b.style.display==='none'?'block':'none';this.querySelector('.argus-section-toggle').textContent=b.style.display==='none'?'▸':'▾'"`;
+}
+
+function makeSection(icon, iconClass, title, badge, bodyHtml, id) {
+  return `<div class="argus-section"${id ? ` id="${id}"` : ''}>
+    <div class="argus-section-header" ${sectionToggle()}>
+      <div class="argus-section-left">
+        <div class="argus-section-icon ${iconClass}">${icon}</div>
+        <div class="argus-section-title">${title}</div>
+        ${badge ? `<div class="argus-section-badge">${badge}</div>` : ''}
+      </div>
+      <span class="argus-section-toggle">▾</span>
+    </div>
+    <div class="argus-section-body">${bodyHtml}</div>
+  </div>`;
+}
+
 // ── UI Rendering ──
 
 function initArgus(fundingData, domain) {
@@ -101,7 +121,12 @@ function initArgus(fundingData, domain) {
   argusPanel.id = 'argus-panel';
 
   if (article.wordCount < 50) {
-    argusPanel.innerHTML = `<button id="argus-panel-close" onclick="this.parentElement.remove()">×</button><h2>Argus</h2><div class="argus-error">Text too short or paywalled.</div>`;
+    argusPanel.innerHTML = `
+      <div class="argus-header">
+        <div class="argus-brand"><div class="argus-logo">A</div><div class="argus-brand-text"><div class="argus-brand-name">ARGUS</div><div class="argus-brand-tag">Intelligence</div></div></div>
+        <button id="argus-panel-close" onclick="this.closest('#argus-panel').remove()">✕</button>
+      </div>
+      <div style="padding:24px"><div class="argus-error">Article text too short or paywalled to analyze.</div></div>`;
     document.body.appendChild(argusPanel);
     return;
   }
@@ -109,117 +134,132 @@ function initArgus(fundingData, domain) {
   const a = analyzeText(article.fullText, article.headline);
   const entities = extractEntities(article.fullText);
 
-  const icons = { high: '🔴', medium: '🟡', low: '🟢' };
-  const labels = { high: 'High Caution', medium: 'Read Critically', low: 'Appears Well-Sourced' };
-  const emoColor = a.emoFound.length > 4 ? '#f87171' : a.emoFound.length > 2 ? '#facc15' : '#4ade80';
-  const srcColor = a.sourcingScore > 60 ? '#4ade80' : a.sourcingScore > 30 ? '#facc15' : '#f87171';
+  // Confidence score (0-100, higher = more trustworthy)
+  const confidence = Math.max(0, Math.min(100, Math.round(
+    (a.sourcingScore * 0.4) +
+    (Math.max(0, 40 - a.emoFound.length * 8)) +
+    (a.risks.length === 0 ? 20 : Math.max(0, 20 - a.risks.length * 7))
+  )));
+  const ringOffset = 251 - (251 * confidence / 100);
+  const riskClass = a.riskLevel;
 
+  const labels = { high: 'High Caution', medium: 'Read Critically', low: 'Appears Well-Sourced' };
+  const emoColor = a.emoFound.length > 4 ? 'var(--argus-red)' : a.emoFound.length > 2 ? 'var(--argus-yellow)' : 'var(--argus-green)';
+  const srcColor = a.sourcingScore > 60 ? 'var(--argus-green)' : a.sourcingScore > 30 ? 'var(--argus-yellow)' : 'var(--argus-red)';
+
+  // Claims HTML
   let claimsHtml = '';
   a.claims.forEach(c => {
-    const tag = c.sourced ? '<span class="argus-claim-tag sourced">Sourced</span>' : '<span class="argus-claim-tag unsourced">Unsourced</span>';
+    const tag = c.sourced
+      ? '<span class="argus-claim-tag sourced">Sourced</span>'
+      : '<span class="argus-claim-tag unsourced">Unsourced</span>';
     claimsHtml += `<div class="argus-claim ${c.sourced ? 'sourced' : 'unsourced'}">${c.text} ${tag}</div>`;
   });
 
+  // Word chips
   let emoChips = '';
   a.emoFound.slice(0, 8).forEach(w => { emoChips += `<span class="argus-word-chip emotional">${w}</span>`; });
   let hedgeChips = '';
   a.hedgeFound.slice(0, 6).forEach(w => { hedgeChips += `<span class="argus-word-chip hedge">${w}</span>`; });
 
+  // Risk pills
+  let riskPills = '';
+  a.risks.forEach(r => { riskPills += `<span class="argus-risk-pill ${riskClass}">${r}</span>`; });
+
+  const truncHeadline = article.headline.length > 80 ? article.headline.substring(0, 77) + '...' : article.headline;
+
   argusPanel.innerHTML = `
-    <button id="argus-panel-close" onclick="this.parentElement.remove()">×</button>
-    <h2>⚡ Argus Deep Analysis</h2>
-    <div class="argus-subtitle">"${article.headline.substring(0, 70)}${article.headline.length > 70 ? '...' : ''}"</div>
+    <!-- HEADER -->
+    <div class="argus-header">
+      <div class="argus-brand">
+        <div class="argus-logo">A</div>
+        <div class="argus-brand-text">
+          <div class="argus-brand-name">ARGUS</div>
+          <div class="argus-brand-tag">Deep Analysis</div>
+        </div>
+      </div>
+      <button id="argus-panel-close" onclick="this.closest('#argus-panel').remove()">✕</button>
+    </div>
 
-    <!-- VERDICT -->
-    <div class="argus-verdict ${a.riskLevel}-risk">
-      <div class="argus-verdict-icon">${icons[a.riskLevel]}</div>
-      <div class="argus-verdict-text">
-        <div class="argus-verdict-label">${labels[a.riskLevel]}</div>
-        <div class="argus-verdict-reason">${a.risks[0] || 'No major red flags detected.'}</div>
+    <!-- HEADLINE -->
+    <div class="argus-headline-bar">Analyzing: <span>${truncHeadline}</span></div>
+
+    <!-- CONFIDENCE RING + VERDICT -->
+    <div class="argus-verdict-ring">
+      <div class="argus-ring-wrap">
+        <svg class="argus-ring-svg" viewBox="0 0 88 88">
+          <circle class="argus-ring-bg" cx="44" cy="44" r="40"/>
+          <circle class="argus-ring-fill ${riskClass}" cx="44" cy="44" r="40" style="stroke-dashoffset:${ringOffset}"/>
+        </svg>
+        <div class="argus-ring-label">
+          <div class="argus-ring-score" style="color:${riskClass === 'high' ? 'var(--argus-red)' : riskClass === 'medium' ? 'var(--argus-yellow)' : 'var(--argus-green)'}">${confidence}</div>
+          <div class="argus-ring-unit">Trust</div>
+        </div>
+      </div>
+      <div class="argus-verdict-detail">
+        <div class="argus-verdict-title ${riskClass}">${labels[riskClass]}</div>
+        <div class="argus-verdict-desc">${a.risks[0] || 'No major red flags detected in this article.'}</div>
       </div>
     </div>
 
-    <!-- FACT-CHECK LOOKUP -->
-    <div class="argus-section" id="argus-fc-sec">
-      <div class="argus-section-header" onclick="this.nextElementSibling.style.display=this.nextElementSibling.style.display==='none'?'block':'none'">
-        <div class="argus-section-title">✅ Fact-Check Lookup</div><span class="argus-section-toggle">▼</span>
-      </div>
-      <div class="argus-section-body">
-        <div class="argus-loading"><div class="argus-spinner"></div><span>Searching Snopes, PolitiFact, FactCheck.org...</span></div>
-      </div>
-    </div>
+    <!-- RISK PILLS -->
+    ${riskPills ? `<div class="argus-risk-pills">${riskPills}</div>` : ''}
 
-    <!-- GLOBAL LENS -->
-    <div class="argus-section" id="argus-global-sec">
-      <div class="argus-section-header" onclick="this.nextElementSibling.style.display=this.nextElementSibling.style.display==='none'?'block':'none'">
-        <div class="argus-section-title">🌍 Global Lens</div><span class="argus-section-toggle">▼</span>
-      </div>
-      <div class="argus-section-body">
-        <div class="argus-loading"><div class="argus-spinner"></div><span>Searching global outlets...</span></div>
-      </div>
-    </div>
+    <!-- SECTIONS -->
+    <div class="argus-content">
+      ${makeSection('✓', 'argus-icon-fc', 'Fact-Check Lookup', null,
+        '<div class="argus-loading"><div class="argus-spinner"></div><span>Searching Snopes, PolitiFact, FactCheck.org…</span></div>',
+        'argus-fc-sec')}
 
-    <!-- WIKIPEDIA CROSS-REF -->
-    <div class="argus-section" id="argus-wiki-sec">
-      <div class="argus-section-header" onclick="this.nextElementSibling.style.display=this.nextElementSibling.style.display==='none'?'block':'none'">
-        <div class="argus-section-title">📚 Wikipedia Cross-Reference</div><span class="argus-section-toggle">▼</span>
-      </div>
-      <div class="argus-section-body">
-        <div class="argus-loading"><div class="argus-spinner"></div><span>Verifying entities...</span></div>
-      </div>
-    </div>
+      ${makeSection('◎', 'argus-icon-globe', 'Global Lens', null,
+        '<div class="argus-loading"><div class="argus-spinner"></div><span>Searching global outlets…</span></div>',
+        'argus-global-sec')}
 
-    <!-- LANGUAGE AUDIT -->
-    <div class="argus-section">
-      <div class="argus-section-header" onclick="this.nextElementSibling.style.display=this.nextElementSibling.style.display==='none'?'block':'none'">
-        <div class="argus-section-title">🔬 Language Audit</div><span class="argus-section-toggle">▼</span>
-      </div>
-      <div class="argus-section-body">
+      ${makeSection('W', 'argus-icon-wiki', 'Wikipedia Cross-Reference', null,
+        '<div class="argus-loading"><div class="argus-spinner"></div><span>Verifying entities…</span></div>',
+        'argus-wiki-sec')}
+
+      ${makeSection('¶', 'argus-icon-lang', 'Language Audit', `${a.wc} words`, `
         <div class="argus-stats">
           <div class="argus-stat"><div class="argus-stat-value" style="color:${emoColor}">${a.emoFound.length}</div><div class="argus-stat-label">Emotional Words</div></div>
           <div class="argus-stat"><div class="argus-stat-value" style="color:${srcColor}">${a.attributions + a.quotes}</div><div class="argus-stat-label">Sources & Quotes</div></div>
           <div class="argus-stat"><div class="argus-stat-value">${a.dataRefs}</div><div class="argus-stat-label">Data References</div></div>
           <div class="argus-stat"><div class="argus-stat-value">${a.opinionFound.length}</div><div class="argus-stat-label">Opinion Markers</div></div>
         </div>
-        <div style="margin-top:10px"><div style="font-size:11px;color:#94a3b8;margin-bottom:4px">Source Quality</div><div class="argus-meter"><div class="argus-meter-fill" style="width:${a.sourcingScore}%;background:${srcColor}"></div></div></div>
-        ${emoChips ? `<div style="margin-top:10px"><div style="font-size:10px;color:#94a3b8;margin-bottom:4px">LOADED WORDS:</div>${emoChips}</div>` : ''}
-        ${hedgeChips ? `<div style="margin-top:8px"><div style="font-size:10px;color:#94a3b8;margin-bottom:4px">HEDGING:</div>${hedgeChips}</div>` : ''}
-      </div>
-    </div>
+        <div class="argus-meter-wrap">
+          <div class="argus-meter-header">
+            <div class="argus-meter-label">Source Quality</div>
+            <div class="argus-meter-value" style="color:${srcColor}">${a.sourcingScore}%</div>
+          </div>
+          <div class="argus-meter"><div class="argus-meter-fill" style="width:${a.sourcingScore}%;background:${srcColor}"></div></div>
+        </div>
+        ${emoChips ? `<div class="argus-chips-group"><div class="argus-chips-label">Loaded Words</div>${emoChips}</div>` : ''}
+        ${hedgeChips ? `<div class="argus-chips-group"><div class="argus-chips-label">Hedging</div>${hedgeChips}</div>` : ''}
+      `, null)}
 
-    <!-- KEY CLAIMS -->
-    ${claimsHtml ? `
-    <div class="argus-section">
-      <div class="argus-section-header" onclick="this.nextElementSibling.style.display=this.nextElementSibling.style.display==='none'?'block':'none'">
-        <div class="argus-section-title">📋 Key Claims</div><span class="argus-section-toggle">▼</span>
-      </div>
-      <div class="argus-section-body">
-        <div style="font-size:11px;color:#64748b;margin-bottom:6px">Verifiable statements found:</div>
-        ${claimsHtml}
-      </div>
-    </div>` : ''}
+      ${claimsHtml ? makeSection('◈', 'argus-icon-claim', 'Key Claims', `${a.claims.length}`,
+        `<div style="font-size:10px;color:var(--argus-text-muted);margin-bottom:6px">Verifiable statements found:</div>${claimsHtml}`,
+        null) : ''}
 
-    <!-- AI TONE -->
-    <div class="argus-section" id="argus-ai-sec">
-      <div class="argus-section-header" onclick="this.nextElementSibling.style.display=this.nextElementSibling.style.display==='none'?'block':'none'">
-        <div class="argus-section-title">🧠 AI Tone (On-Device)</div><span class="argus-section-toggle">▼</span>
-      </div>
-      <div class="argus-section-body">
-        <div class="argus-loading"><div class="argus-spinner"></div><span>Loading AI model...</span></div>
-      </div>
-    </div>
+      ${makeSection('◆', 'argus-icon-ai', 'AI Tone Analysis', 'On-Device',
+        '<div class="argus-loading"><div class="argus-spinner"></div><span>Initializing local AI model…</span></div>',
+        'argus-ai-sec')}
 
-    <!-- CORPORATE DNA -->
-    <div class="argus-section">
-      <div class="argus-section-header" onclick="this.nextElementSibling.style.display=this.nextElementSibling.style.display==='none'?'block':'none'">
-        <div class="argus-section-title">🏢 Corporate DNA (${domain})</div><span class="argus-section-toggle">▼</span>
-      </div>
-      <div class="argus-section-body">
+      ${makeSection('⬡', 'argus-icon-corp', `Corporate DNA`, domain, `
         ${fundingData ? `
-          <div class="argus-trust-badge ${fundingData.trust_level === 'Verified' ? 'verified' : 'community'}">${fundingData.trust_level}</div>
-          <div class="argus-data" style="margin-top:8px"><strong>Owner:</strong> ${fundingData.owner}<br/><strong>Funding:</strong> ${fundingData.funding}</div>
-        ` : `<div class="argus-error">Ownership data not mapped.</div><a href="https://github.com/yourusername/argus/edit/main/argus-extension/database.json" target="_blank" class="argus-submit-btn">Submit a PR</a>`}
-      </div>
+          <div class="argus-trust-badge ${fundingData.trust_level === 'Verified' ? 'verified' : 'community'}">${fundingData.trust_level === 'Verified' ? '● ' : '○ '}${fundingData.trust_level}</div>
+          <div class="argus-data" style="margin-top:10px"><strong>Owner:</strong> ${fundingData.owner}<br/><strong>Funding:</strong> ${fundingData.funding}</div>
+        ` : `<div class="argus-error">Ownership data not mapped for this domain.</div><a href="https://github.com/Adarsh-S-kmr/argus/edit/main/argus-extension/database.json" target="_blank" class="argus-submit-btn">Contribute Data →</a>`}
+      `, null)}
+    </div>
+
+    <!-- FOOTER -->
+    <div class="argus-footer">
+      <span class="argus-footer-text">100% Local</span>
+      <span class="argus-footer-dot"></span>
+      <span class="argus-footer-text">No Data Leaves Your Browser</span>
+      <span class="argus-footer-dot"></span>
+      <span class="argus-footer-text">Argus v1.0</span>
     </div>
   `;
 
@@ -234,35 +274,43 @@ function initArgus(fundingData, domain) {
       return;
     }
     if (resp.results.length === 0) {
-      sec.innerHTML = `<div class="argus-data" style="color:#94a3b8">No existing fact-checks found for this story from major fact-checking organizations.<br/><div style="font-size:11px;margin-top:4px;color:#64748b">This means the story hasn't been reviewed yet — it does NOT confirm it's true.</div></div>`;
+      sec.innerHTML = `<div class="argus-data" style="color:var(--argus-text-dim)">No existing fact-checks found for this story.<div style="font-size:10px;margin-top:4px;color:var(--argus-text-muted)">This means the story hasn't been reviewed yet — it does NOT confirm it's true.</div></div>`;
       return;
     }
-    const verdictColors = { 'true': '#4ade80', 'false': '#f87171', 'mixed': '#facc15', 'unknown': '#94a3b8' };
-    const verdictEmoji = { 'true': '✅', 'false': '❌', 'mixed': '⚠️', 'unknown': '❔' };
-    let html = `<div style="font-size:12px;color:#4ade80;font-weight:600;margin-bottom:8px">Found ${resp.results.length} fact-check${resp.results.length > 1 ? 's' : ''}!</div>`;
+    const vColors = { 'true': 'var(--argus-green)', 'false': 'var(--argus-red)', 'mixed': 'var(--argus-yellow)', 'unknown': 'var(--argus-text-dim)' };
+    const vEmoji = { 'true': '✓', 'false': '✗', 'mixed': '!', 'unknown': '?' };
+    let html = `<div style="font-size:11px;color:var(--argus-green);font-weight:700;margin-bottom:8px">Found ${resp.results.length} fact-check${resp.results.length > 1 ? 's' : ''}</div>`;
     resp.results.forEach(r => {
-      html += `<div class="argus-source-card" style="border-left-color:${verdictColors[r.verdict]}">
-        <div style="display:flex;align-items:center;gap:6px">
-          <span>${verdictEmoji[r.verdict]}</span>
+      html += `<div class="argus-source-card" style="border-left-color:${vColors[r.verdict]}">
+        <div style="display:flex;align-items:center;gap:8px">
           <span class="argus-source-name">${r.source}</span>
-          <span style="font-size:9px;font-weight:700;padding:1px 5px;border-radius:3px;background:${verdictColors[r.verdict]}22;color:${verdictColors[r.verdict]}">${r.verdict.toUpperCase()}</span>
+          <span class="argus-fc-verdict" style="background:${vColors[r.verdict]}15;color:${vColors[r.verdict]}">${vEmoji[r.verdict]} ${r.verdict.toUpperCase()}</span>
         </div>
         <div class="argus-source-headline" style="margin-top:3px">${r.title}</div>
-        ${r.description ? `<div style="font-size:10px;color:#64748b;margin-top:3px">${r.description.substring(0, 150)}...</div>` : ''}
+        ${r.description ? `<div style="font-size:10px;color:var(--argus-text-muted);margin-top:3px">${r.description.substring(0, 150)}…</div>` : ''}
       </div>`;
     });
     sec.innerHTML = html;
 
-    // Update verdict banner if fact-checkers found it false
+    // Update verdict if fact-checkers found it false
     const falseCount = resp.results.filter(r => r.verdict === 'false').length;
     const trueCount = resp.results.filter(r => r.verdict === 'true').length;
-    const verdict = document.querySelector('.argus-verdict');
-    if (verdict && falseCount > 0) {
-      verdict.className = 'argus-verdict high-risk';
-      verdict.innerHTML = `<div class="argus-verdict-icon">❌</div><div class="argus-verdict-text"><div class="argus-verdict-label">Fact-Checkers Flag This as False</div><div class="argus-verdict-reason">${falseCount} fact-checking org${falseCount > 1 ? 's' : ''} rated claims in this story as FALSE.</div></div>`;
-    } else if (verdict && trueCount > 0 && falseCount === 0) {
-      verdict.className = 'argus-verdict low-risk';
-      verdict.innerHTML = `<div class="argus-verdict-icon">✅</div><div class="argus-verdict-text"><div class="argus-verdict-label">Verified by Fact-Checkers</div><div class="argus-verdict-reason">${trueCount} fact-checking org${trueCount > 1 ? 's' : ''} confirmed claims in this story.</div></div>`;
+    const vTitle = document.querySelector('.argus-verdict-title');
+    const vDesc = document.querySelector('.argus-verdict-desc');
+    const ring = document.querySelector('.argus-ring-fill');
+    const scoreEl = document.querySelector('.argus-ring-score');
+    if (falseCount > 0 && vTitle && vDesc) {
+      vTitle.className = 'argus-verdict-title high';
+      vTitle.textContent = 'Fact-Checkers Flag This as False';
+      vDesc.textContent = `${falseCount} fact-checking org${falseCount > 1 ? 's' : ''} rated claims in this story as FALSE.`;
+      if (ring) { ring.className = 'argus-ring-fill high'; ring.style.strokeDashoffset = '226'; }
+      if (scoreEl) { scoreEl.textContent = '10'; scoreEl.style.color = 'var(--argus-red)'; }
+    } else if (trueCount > 0 && falseCount === 0 && vTitle && vDesc) {
+      vTitle.className = 'argus-verdict-title low';
+      vTitle.textContent = 'Verified by Fact-Checkers';
+      vDesc.textContent = `${trueCount} fact-checking org${trueCount > 1 ? 's' : ''} confirmed claims in this story.`;
+      if (ring) { ring.className = 'argus-ring-fill low'; ring.style.strokeDashoffset = '25'; }
+      if (scoreEl) { scoreEl.textContent = '90'; scoreEl.style.color = 'var(--argus-green)'; }
     }
   });
 
@@ -272,12 +320,12 @@ function initArgus(fundingData, domain) {
     if (!sec) return;
     if (chrome.runtime.lastError || !resp) { sec.innerHTML = `<div class="argus-error">Could not reach news feeds.</div>`; return; }
     if (resp.count === 0) {
-      sec.innerHTML = `<div class="argus-data" style="color:#facc15"><strong>⚠️ No other major outlets appear to cover this story.</strong><div style="font-size:11px;color:#94a3b8;margin-top:4px">Single-source stories deserve extra scrutiny.</div></div>`;
+      sec.innerHTML = `<div class="argus-data"><strong style="color:var(--argus-yellow)">⚠ No other major outlets cover this story.</strong><div style="font-size:10px;color:var(--argus-text-muted);margin-top:4px">Single-source stories deserve extra scrutiny.</div></div>`;
       return;
     }
-    let html = `<div class="argus-data"><strong>${resp.count}</strong> other outlet${resp.count > 1 ? 's' : ''} covering this story.</div><div style="margin-top:6px;font-size:11px;color:#94a3b8">How others frame the same event:</div>`;
+    let html = `<div class="argus-data"><strong>${resp.count}</strong> other outlet${resp.count > 1 ? 's' : ''} covering this story.</div><div style="margin-top:8px;font-size:10px;color:var(--argus-text-muted);margin-bottom:2px">How others frame the same event:</div>`;
     (resp.items || []).forEach(item => {
-      html += `<div class="argus-source-card"><div class="argus-source-name">${item.source}</div><div class="argus-source-headline">"${item.title}"</div>${item.description ? `<div style="font-size:10px;color:#64748b;margin-top:3px">${item.description}</div>` : ''}</div>`;
+      html += `<div class="argus-source-card"><div class="argus-source-name">${item.source}</div><div class="argus-source-headline">"${item.title}"</div>${item.description ? `<div style="font-size:10px;color:var(--argus-text-muted);margin-top:3px">${item.description}</div>` : ''}</div>`;
     });
     sec.innerHTML = html;
   });
@@ -288,20 +336,20 @@ function initArgus(fundingData, domain) {
       const sec = document.querySelector('#argus-wiki-sec .argus-section-body');
       if (!sec) return;
       if (chrome.runtime.lastError || !resp || !resp.verified) { sec.innerHTML = `<div class="argus-error">Wikipedia check failed.</div>`; return; }
-      if (resp.verified.length === 0) { sec.innerHTML = `<div class="argus-data" style="color:#94a3b8">No verifiable entities detected.</div>`; return; }
-      let html = `<div style="font-size:11px;color:#64748b;margin-bottom:6px">Key people/orgs/places mentioned, verified against Wikipedia:</div>`;
+      if (resp.verified.length === 0) { sec.innerHTML = `<div class="argus-data" style="color:var(--argus-text-dim)">No verifiable entities detected.</div>`; return; }
+      let html = `<div style="font-size:10px;color:var(--argus-text-muted);margin-bottom:6px">Key entities verified against Wikipedia:</div>`;
       resp.verified.forEach(v => {
         if (v.exists) {
-          html += `<div class="argus-source-card" style="border-left-color:#4ade80"><div class="argus-source-name">✅ ${v.entity}</div><div style="font-size:10px;color:#94a3b8">${v.description}</div><div style="font-size:10px;color:#64748b;margin-top:2px">${v.summary}</div></div>`;
+          html += `<div class="argus-source-card" style="border-left-color:var(--argus-green)"><div class="argus-source-name">● ${v.entity}</div><div style="font-size:10px;color:var(--argus-text-dim)">${v.description}</div><div style="font-size:10px;color:var(--argus-text-muted);margin-top:2px">${v.summary}</div></div>`;
         } else {
-          html += `<div class="argus-source-card" style="border-left-color:#f87171"><div class="argus-source-name">❓ ${v.entity}</div><div style="font-size:10px;color:#f87171">Not found on Wikipedia. Could be misspelled, obscure, or fabricated.</div></div>`;
+          html += `<div class="argus-source-card" style="border-left-color:var(--argus-red)"><div class="argus-source-name">✗ ${v.entity}</div><div style="font-size:10px;color:var(--argus-red)">Not found on Wikipedia. Could be misspelled, obscure, or fabricated.</div></div>`;
         }
       });
       sec.innerHTML = html;
     });
   } else {
     const sec = document.querySelector('#argus-wiki-sec .argus-section-body');
-    if (sec) sec.innerHTML = `<div class="argus-data" style="color:#94a3b8">No named entities to verify.</div>`;
+    if (sec) sec.innerHTML = `<div class="argus-data" style="color:var(--argus-text-dim)">No named entities to verify.</div>`;
   }
 
   // ── ASYNC: AI Tone ──
@@ -322,15 +370,20 @@ function startAI(article) {
       const { status, result, error } = e.data;
       if (status === 'ready') {
         aiReady = true;
-        const s = aiSec(); if (s) s.innerHTML = `<div class="argus-loading"><div class="argus-spinner"></div><span>Analyzing tone...</span></div>`;
+        const s = aiSec(); if (s) s.innerHTML = `<div class="argus-loading"><div class="argus-spinner"></div><span>Analyzing tone…</span></div>`;
         argusIframe.contentWindow.postMessage({ type: 'ARGUS_AI_ANALYZE', text: article.textBody }, '*');
       } else if (status === 'complete') {
         const label = result[0].label, score = Math.round(result[0].score * 100);
-        const color = label === 'POSITIVE' ? '#4ade80' : '#f87171';
-        const emoji = label === 'POSITIVE' ? '😊' : '😠';
-        const exp = label === 'POSITIVE' ? 'Positive/optimistic language detected. Could be genuine or used to manufacture consent.' : 'Negative/alarming language detected. Could reflect real events or be outrage-bait.';
+        const isPositive = label === 'POSITIVE';
+        const badgeClass = isPositive ? 'positive' : 'negative';
+        const exp = isPositive
+          ? 'Positive/optimistic language detected. Could be genuine or used to manufacture consent.'
+          : 'Negative/alarming language detected. Could reflect real events or be outrage-bait.';
         const s = aiSec();
-        if (s) s.innerHTML = `<div class="argus-data"><div style="font-size:15px;margin-bottom:4px">${emoji} <strong style="color:${color}">${label}</strong> <span style="color:#64748b;font-size:12px">(${score}%)</span></div><div style="font-size:11px;color:#94a3b8">${exp}</div></div>`;
+        if (s) s.innerHTML = `<div class="argus-ai-result">
+          <div class="argus-ai-badge ${badgeClass}">${label} ${score}%</div>
+          <div class="argus-ai-detail">${exp}</div>
+        </div>`;
         window.removeEventListener('message', handler);
       } else if (status === 'error') {
         const s = aiSec(); if (s) s.innerHTML = `<div class="argus-error">AI failed: ${error}</div>`;

@@ -50,39 +50,101 @@
   animation: argus-emerge 0.5s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-#argus-panel * { box-sizing: border-box; }
+#argus-panel * {
+  box-sizing: border-box;
+}
 
 /* Scrollbar */
-#argus-panel::-webkit-scrollbar { width: 5px; }
-#argus-panel::-webkit-scrollbar-track { background: transparent; }
-#argus-panel::-webkit-scrollbar-thumb { background: rgba(99, 102, 241, 0.2); border-radius: 5px; }
-#argus-panel::-webkit-scrollbar-thumb:hover { background: rgba(99, 102, 241, 0.4); }
+#argus-panel::-webkit-scrollbar {
+  width: 5px;
+}
+
+#argus-panel::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+#argus-panel::-webkit-scrollbar-thumb {
+  background: rgba(99, 102, 241, 0.2);
+  border-radius: 5px;
+}
+
+#argus-panel::-webkit-scrollbar-thumb:hover {
+  background: rgba(99, 102, 241, 0.4);
+}
 
 /* ── Animations ── */
 @keyframes argus-emerge {
-  0% { transform: translateY(40px) scale(0.96); opacity: 0; filter: blur(8px); }
-  100% { transform: translateY(0) scale(1); opacity: 1; filter: blur(0); }
+  0% {
+    transform: translateY(40px) scale(0.96);
+    opacity: 0;
+    filter: blur(8px);
+  }
+
+  100% {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+    filter: blur(0);
+  }
 }
-@keyframes argus-spin { to { transform: rotate(360deg); } }
+
+@keyframes argus-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 @keyframes argus-pulse-ring {
-  0%, 100% { opacity: 0.6; }
-  50% { opacity: 1; }
+
+  0%,
+  100% {
+    opacity: 0.6;
+  }
+
+  50% {
+    opacity: 1;
+  }
 }
+
 @keyframes argus-shimmer {
-  0% { background-position: -200% 0; }
-  100% { background-position: 200% 0; }
+  0% {
+    background-position: -200% 0;
+  }
+
+  100% {
+    background-position: 200% 0;
+  }
 }
+
 @keyframes argus-fade-in {
-  from { opacity: 0; transform: translateY(6px); }
-  to { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
+
 @keyframes argus-ring-fill {
-  from { stroke-dashoffset: 251; }
+  from {
+    stroke-dashoffset: 251;
+  }
 }
+
 @keyframes argus-gradient-shift {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 /* ── Header ── */
@@ -119,7 +181,7 @@
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(135deg, transparent 40%, rgba(255,255,255,0.2) 50%, transparent 60%);
+  background: linear-gradient(135deg, transparent 40%, rgba(255, 255, 255, 0.2) 50%, transparent 60%);
   background-size: 200% 200%;
   animation: argus-shimmer 3s ease infinite;
 }
@@ -162,6 +224,7 @@
   border-radius: 10px;
   transition: all 0.25s ease;
 }
+
 #argus-panel-close:hover {
   color: #fff;
   background: rgba(248, 113, 113, 0.15);
@@ -177,6 +240,7 @@
   line-height: 1.5;
   border-bottom: 1px solid var(--argus-border);
 }
+
 .argus-headline-bar span {
   color: var(--argus-text-dim);
   font-style: italic;
@@ -219,9 +283,20 @@
   filter: drop-shadow(0 0 6px currentColor);
 }
 
-.argus-ring-fill.high { stroke: var(--argus-red); color: var(--argus-red); }
-.argus-ring-fill.medium { stroke: var(--argus-yellow); color: var(--argus-yellow); }
-.argus-ring-fill.low { stroke: var(--argus-green); color: var(--argus-green); }
+.argus-ring-fill.high {
+  stroke: var(--argus-red);
+  color: var(--argus-red);
+}
+
+.argus-ring-fill.medium {
+  stroke: var(--argus-yellow);
+  color: var(--argus-yellow);
+}
+
+.argus-ring-fill.low {
+  stroke: var(--argus-green);
+  color: var(--argus-green);
+}
 
 .argus-ring-label {
   position: absolute;
@@ -258,9 +333,18 @@
   font-weight: 700;
   margin-bottom: 4px;
 }
-.argus-verdict-title.high { color: var(--argus-red); }
-.argus-verdict-title.medium { color: var(--argus-yellow); }
-.argus-verdict-title.low { color: var(--argus-green); }
+
+.argus-verdict-title.high {
+  color: var(--argus-red);
+}
+
+.argus-verdict-title.medium {
+  color: var(--argus-yellow);
+}
+
+.argus-verdict-title.low {
+  color: var(--argus-green);
+}
 
 .argus-verdict-desc {
   font-size: 11px;
@@ -321,6 +405,7 @@
   transition: border-color 0.3s ease;
   animation: argus-fade-in 0.4s ease both;
 }
+
 .argus-section:hover {
   border-color: var(--argus-border-bright);
 }
@@ -334,6 +419,7 @@
   transition: background 0.2s ease;
   user-select: none;
 }
+
 .argus-section-header:hover {
   background: var(--argus-surface-hover);
 }
@@ -386,13 +472,33 @@
 }
 
 /* Section icon color variants */
-.argus-icon-fc { background: rgba(52, 211, 153, 0.12); }
-.argus-icon-globe { background: rgba(34, 211, 238, 0.12); }
-.argus-icon-wiki { background: rgba(168, 85, 247, 0.12); }
-.argus-icon-lang { background: rgba(251, 191, 36, 0.12); }
-.argus-icon-claim { background: rgba(99, 102, 241, 0.12); }
-.argus-icon-ai { background: linear-gradient(135deg, rgba(99, 102, 241, 0.15), rgba(168, 85, 247, 0.15)); }
-.argus-icon-corp { background: rgba(148, 163, 184, 0.1); }
+.argus-icon-fc {
+  background: rgba(52, 211, 153, 0.12);
+}
+
+.argus-icon-globe {
+  background: rgba(34, 211, 238, 0.12);
+}
+
+.argus-icon-wiki {
+  background: rgba(168, 85, 247, 0.12);
+}
+
+.argus-icon-lang {
+  background: rgba(251, 191, 36, 0.12);
+}
+
+.argus-icon-claim {
+  background: rgba(99, 102, 241, 0.12);
+}
+
+.argus-icon-ai {
+  background: linear-gradient(135deg, rgba(99, 102, 241, 0.15), rgba(168, 85, 247, 0.15));
+}
+
+.argus-icon-corp {
+  background: rgba(148, 163, 184, 0.1);
+}
 
 /* ── Stat Grid ── */
 .argus-stats {
@@ -408,6 +514,7 @@
   border: 1px solid var(--argus-border);
   transition: border-color 0.2s ease, transform 0.2s ease;
 }
+
 .argus-stat:hover {
   border-color: var(--argus-border-bright);
   transform: translateY(-1px);
@@ -474,7 +581,7 @@
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
   background-size: 200% 100%;
   animation: argus-shimmer 2s ease infinite;
 }
@@ -502,6 +609,7 @@
   margin: 2px;
   transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
+
 .argus-word-chip:hover {
   transform: translateY(-1px);
 }
@@ -530,8 +638,14 @@
   color: var(--argus-text-dim);
   transition: border-color 0.2s ease;
 }
-.argus-claim.sourced { border-left-color: var(--argus-green); }
-.argus-claim.unsourced { border-left-color: var(--argus-red); }
+
+.argus-claim.sourced {
+  border-left-color: var(--argus-green);
+}
+
+.argus-claim.unsourced {
+  border-left-color: var(--argus-red);
+}
 
 .argus-claim-tag {
   display: inline-block;
@@ -545,8 +659,16 @@
   vertical-align: middle;
   letter-spacing: 0.03em;
 }
-.argus-claim-tag.sourced { background: rgba(52, 211, 153, 0.12); color: var(--argus-green); }
-.argus-claim-tag.unsourced { background: rgba(248, 113, 113, 0.12); color: var(--argus-red); }
+
+.argus-claim-tag.sourced {
+  background: rgba(52, 211, 153, 0.12);
+  color: var(--argus-green);
+}
+
+.argus-claim-tag.unsourced {
+  background: rgba(248, 113, 113, 0.12);
+  color: var(--argus-red);
+}
 
 /* ── Source Cards ── */
 .argus-source-card {
@@ -559,6 +681,7 @@
   line-height: 1.5;
   transition: background 0.2s ease, transform 0.15s ease;
 }
+
 .argus-source-card:hover {
   background: rgba(0, 0, 0, 0.28);
   transform: translateX(2px);
@@ -624,6 +747,7 @@
   line-height: 1.6;
   color: var(--argus-text);
 }
+
 .argus-data strong {
   color: #fff;
   font-weight: 700;
@@ -640,11 +764,13 @@
   border-radius: 8px;
   line-height: 1.4;
 }
+
 .argus-trust-badge.verified {
   background: rgba(52, 211, 153, 0.08);
   color: var(--argus-green);
   border: 1px solid rgba(52, 211, 153, 0.15);
 }
+
 .argus-trust-badge.community {
   background: rgba(251, 191, 36, 0.08);
   color: var(--argus-yellow);
@@ -667,6 +793,7 @@
   margin-top: 8px;
   box-shadow: 0 4px 16px rgba(99, 102, 241, 0.2);
 }
+
 .argus-submit-btn:hover {
   transform: translateY(-2px);
   box-shadow: 0 8px 24px rgba(99, 102, 241, 0.3);

@@ -1,6 +1,8 @@
 import json
+import os
 
-db_path = r'e:\my_projects\argus\argus-extension\database.json'
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+db_path = os.path.join(SCRIPT_DIR, '../argus-extension/database.json')
 with open(db_path, 'r', encoding='utf-8') as f:
     data = json.load(f)
 

@@ -35,7 +35,7 @@ def fetch_wikidata_media():
     } LIMIT 1000
     """
     headers = {
-        'User-Agent': 'ArgusDataPipeline/1.0 (https://github.com/yourusername/argus)',
+        'User-Agent': 'ArgusDataPipeline/1.0 (https://github.com/Adarsh-S-kmr/argus)',
         'Accept': 'application/json'
     }
     
