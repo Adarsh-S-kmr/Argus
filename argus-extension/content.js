@@ -135,15 +135,25 @@ function initArgus(fundingData, domain) {
   const entities = extractEntities(article.fullText);
 
   // Confidence score (0-100, higher = more trustworthy)
-  const confidence = Math.max(0, Math.min(100, Math.round(
+  let confidence = Math.max(0, Math.min(100, Math.round(
     (a.sourcingScore * 0.4) +
     (Math.max(0, 40 - a.emoFound.length * 8)) +
     (a.risks.length === 0 ? 20 : Math.max(0, 20 - a.risks.length * 7))
   )));
-  const ringOffset = 251 - (251 * confidence / 100);
-  const riskClass = a.riskLevel;
 
-  const labels = { high: 'High Caution', medium: 'Read Critically', low: 'Appears Well-Sourced' };
+  // Satire/Unverified Constraint: Do not trust blindly without fact checks
+  if (confidence > 50) {
+    confidence = 50; 
+  }
+
+  let riskClass = a.riskLevel;
+  if (riskClass === 'low') {
+    riskClass = 'medium'; // downgrade to medium until verified
+  }
+
+  const ringOffset = 251 - (251 * confidence / 100);
+
+  const labels = { high: 'High Caution', medium: 'Pending Verification', low: 'Verified & Trustable' };
   const emoColor = a.emoFound.length > 4 ? 'var(--argus-red)' : a.emoFound.length > 2 ? 'var(--argus-yellow)' : 'var(--argus-green)';
   const srcColor = a.sourcingScore > 60 ? 'var(--argus-green)' : a.sourcingScore > 30 ? 'var(--argus-yellow)' : 'var(--argus-red)';
 
@@ -275,6 +285,10 @@ function initArgus(fundingData, domain) {
     }
     if (resp.results.length === 0) {
       sec.innerHTML = `<div class="argus-data" style="color:var(--argus-text-dim)">No existing fact-checks found for this story.<div style="font-size:10px;margin-top:4px;color:var(--argus-text-muted)">This means the story hasn't been reviewed yet — it does NOT confirm it's true.</div></div>`;
+      const vDesc = document.querySelector('.argus-verdict-desc');
+      if (vDesc && a.risks.length < 3) {
+          vDesc.textContent = 'No fact checks found. Treat as unverified or potential satire.';
+      }
       return;
     }
     const vColors = { 'true': 'var(--argus-green)', 'false': 'var(--argus-red)', 'mixed': 'var(--argus-yellow)', 'unknown': 'var(--argus-text-dim)' };
@@ -299,15 +313,16 @@ function initArgus(fundingData, domain) {
     const vDesc = document.querySelector('.argus-verdict-desc');
     const ring = document.querySelector('.argus-ring-fill');
     const scoreEl = document.querySelector('.argus-ring-score');
-    if (falseCount > 0 && vTitle && vDesc) {
+    
+    if (falseCount > trueCount && vTitle && vDesc) {
       vTitle.className = 'argus-verdict-title high';
       vTitle.textContent = 'Fact-Checkers Flag This as False';
       vDesc.textContent = `${falseCount} fact-checking org${falseCount > 1 ? 's' : ''} rated claims in this story as FALSE.`;
       if (ring) { ring.className = 'argus-ring-fill high'; ring.style.strokeDashoffset = '226'; }
       if (scoreEl) { scoreEl.textContent = '10'; scoreEl.style.color = 'var(--argus-red)'; }
-    } else if (trueCount > 0 && falseCount === 0 && vTitle && vDesc) {
+    } else if (trueCount > falseCount && a.sourcingScore > 30 && a.risks.length < 3 && vTitle && vDesc) {
       vTitle.className = 'argus-verdict-title low';
-      vTitle.textContent = 'Verified by Fact-Checkers';
+      vTitle.textContent = 'Verified & Trustable';
       vDesc.textContent = `${trueCount} fact-checking org${trueCount > 1 ? 's' : ''} confirmed claims in this story.`;
       if (ring) { ring.className = 'argus-ring-fill low'; ring.style.strokeDashoffset = '25'; }
       if (scoreEl) { scoreEl.textContent = '90'; scoreEl.style.color = 'var(--argus-green)'; }
